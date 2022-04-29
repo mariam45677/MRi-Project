@@ -7,3 +7,140 @@ html {
 	font-size: 16px;
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
  } 
+ .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fafafa;
+    z-index: 998;
+    box-shadow: 2px 0 1px 2px rgb(0 0 0 / 20%);
+}
+.header1{
+
+		color: #01213a;
+		position: relative;
+		z-index: 999;
+	
+}
+.headerinfo{
+	margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+	display: flex;
+    margin-right: 30px;
+}
+svg{
+	margin-right: 27px;
+    margin-top: 13px;
+}
+
+.list{
+	display: flex;
+	align-items: center;
+	
+}
+.icons{
+	margin-right: 70px;
+	font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.social img{
+	width: 20%;
+    background-color: gray;
+    border-radius: 35px;
+}
+
+.wrapper{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper ul{
+	display: flex;
+    /* text-align: center; */
+     align-items: center;
+	 list-style-type: none;
+}
+.aa:hover{
+	color:  #26C6DA;
+	
+	text-decoration: underline;
+}
+.s{
+	margin-left: 131px;
+}
+a:hover{
+	color:  #26C6DA;
+	text-decoration: underline;
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.main-menu{
+	width: 200%;
+	color: black;
+	display: block;
+    padding: 26px 16px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.main-menu a{
+	margin-left: 22px;
+	font-size: larger;
+	color: black;
+}
+.sec1{
+	background: linear-gradient(267.27deg, #28f3db -3.2%, #4cdac9 18.12%, #4cc7d3 39.23%, #46aedd 65.92%, #4499e4 85.83%);
+}
+.sec1_info{
+	display: flex;
+}
+#v{
+	
+		height: auto;
+		max-width: 70%;
+		margin-left: 20px;
+	
+}
+.sec1_info2{
+	margin-left: auto;
+}
+.sec1_info1{
+	margin-left: 36px;
+    margin-top: 5%;
+	
+}
+#Text{
+	color: white;
+
+}
+.sec1_info1 h1{
+	font-weight: 900;
+}
+.sec1_info1 p{
+	font-weight: 700;
+	font-size: 30px;
+}
+.btn1{
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 59px;
+  
+    background-color: white;
+    width: 50%;
+    color: #26C6DA;
+  
+  
+    border-radius: 33px;
+}
+.btn1:hover, .btn1:active {
+	background-color:  #26C6DA;
+	color: white;
+}
