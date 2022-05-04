@@ -164,7 +164,6 @@ a {
   line-height: 35px;
   margin-bottom: 18px;
   margin-left: 22%;
-
   color: #142a58;
 }
 .step p {
@@ -172,4 +171,60 @@ a {
   font-size: 15px;
   line-height: 18px;
   color: #62829a;
+}
+.imgs {
+  margin-top: 30px;
+  width: 50%;
+  margin-left: 22px;
+}
+.imgs .imgss {
+  float: left;
+  width: 48%;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 22px;
+}
+.imgs .imgss:nth-child(1),
+.imgs .imgss:nth-child(3) {
+  margin-top: -50px;
+}
+.imgs .imgss:nth-child(2),
+.imgs .imgss:nth-child(4) {
+  margin-left: 22px;
+}
+.bas {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 38px;
+  margin-bottom: 25px;
+  color: #142a58;
+}
+.des {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 23px;
+  color: #142a58;
+}
+.des1 {
+  color: #62829a;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+}
+button {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 22px;
+  color: #26c6da;
+  background-color: #26c6da;
+  color: #fff;
+  border-radius: 33px;
+  padding: 20px;
+  transition: all 0.25s ease;
+  margin-top: 30px;
 }
