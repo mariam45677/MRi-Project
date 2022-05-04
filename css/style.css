@@ -143,3 +143,33 @@ a {
   background-color: #26c6da;
   color: white;
 }
+.sec2_1 {
+  display: flex;
+  align-items: center;
+}
+.step {
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+.step img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 7px;
+  margin-left: 28%;
+}
+.step h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 18px;
+  margin-left: 22%;
+
+  color: #142a58;
+}
+.step p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #62829a;
+}
