@@ -8,6 +8,7 @@ html {
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
 }
+/* start header */
 .header {
   position: sticky;
   top: 0;
@@ -15,70 +16,31 @@ html {
   background-color: #fafafa;
   z-index: 998;
   box-shadow: 2px 0 1px 2px rgb(0 0 0 / 20%);
-}
-.header1 {
-  color: #01213a;
-  position: relative;
-  z-index: 999;
-}
-.headerinfo {
-  margin-left: 61px;
   display: flex;
-  align-items: center;
-}
-.icon {
-  display: flex;
-  margin-right: 30px;
-}
-svg {
-  margin-right: 27px;
-  margin-top: 13px;
 }
 
-.list {
+.ul {
   display: flex;
-  align-items: center;
+  list-style-type: none;
+  justify-content: space-around;
 }
-.icons {
-  margin-right: 70px;
-  font-weight: 700;
-  cursor: pointer;
-  text-transform: uppercase;
-}
-.social img {
-  width: 20%;
-  background-color: gray;
-  border-radius: 35px;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.wrapper_1 {
-  margin-left: 589px;
-  margin-top: -83px;
-}
-.wrapper ul {
-  display: flex;
-  /* text-align: center; */
-  align-items: center;
+.aa {
   list-style-type: none;
 }
+
 #ima {
-  width: 11%;
+  width: 40%;
   border-radius: 81px;
-  margin-top: 15px;
+  margin-top: 11px;
+  margin-bottom: 14px;
+  margin-left: 49px;
 }
 .aa:hover {
   color: #26c6da;
 
   text-decoration: underline;
 }
-.s {
-  margin-left: 131px;
-}
+
 a:hover {
   color: #26c6da;
   text-decoration: underline;
@@ -87,20 +49,26 @@ a {
   text-decoration: none;
   color: black;
 }
+#a1 {
+  color: #26c6da;
+}
+.aa1 {
+  margin-left: -35px;
+}
 
 .main-menu {
   width: 200%;
   color: black;
-  display: block;
-  padding: 26px 16px;
+  padding: 13px 16px;
   font-size: 15px;
   font-weight: 700;
+  margin-left: 630px;
 }
 .main-menu a {
-  margin-left: 22px;
   font-size: larger;
   color: black;
 }
+/* end header */
 .sec1 {
   background: linear-gradient(
     267.27deg,
@@ -181,10 +149,22 @@ a {
   line-height: 18px;
   color: #62829a;
 }
+/* end sec1 */
+
+/* start sec2 */
 .imgs {
   margin-top: 30px;
   width: 50%;
   margin-left: 22px;
+}
+#section-about-2 {
+  margin-top: 22px;
+  padding: 20px;
+}
+#det {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .imgs .imgss {
   float: left;
@@ -237,10 +217,15 @@ button {
   transition: all 0.25s ease;
   margin-top: 30px;
 }
+/* end sec2 */
+
 /* sec our doctor  */
 #sec_4 {
   margin-top: 30px;
   padding: 10px;
+}
+.discretion {
+  margin-left: 58px;
 }
 .sec_4_1 {
   display: flex;
@@ -293,6 +278,11 @@ button {
 .section-about__info2 {
   margin-left: 80px;
 }
+#secTreatment {
+  margin-top: 22px;
+  padding: 20px;
+}
+
 .images {
   float: left;
   width: 47%;
