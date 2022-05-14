@@ -109,7 +109,7 @@ a {
   margin-bottom: 25px;
   color: #142a58;
 }
-.btn {
+#part2 .btn {
   font-weight: bold;
   font-size: 19px;
   line-height: 22px;
@@ -118,7 +118,24 @@ a {
   color: #fff;
   border-radius: 33px;
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 40px;
   list-style-type: none;
 }
 /* end sec_1 */
+
+/* footer */
+.text-center {
+  background: linear-gradient(
+    267.27deg,
+    #28f3db -3.2%,
+    #4cdac9 18.12%,
+    #4cc7d3 39.23%,
+    #46aedd 65.92%,
+    #4499e4 85.83%
+  );
+}
+.my-5 {
+  margin-bottom: 0rem !important;
+  margin-top: 3rem !important;
+  max-width: 100%;
+}
