@@ -114,6 +114,7 @@ a {
   width: 50%;
   padding: 2px;
   color: #26c6da;
+  margin-bottom: 42px;
   border-radius: 33px;
 }
 .btn1:hover,
@@ -198,25 +199,10 @@ a {
   font-weight: 500;
   font-size: 25px;
   line-height: 39px;
-  color: #142a58;
+  color: #142a587d;
 }
-.des1 {
-  color: #62829a;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-}
-button {
-  font-weight: bold;
-  font-size: 19px;
-  line-height: 22px;
-  color: #26c6da;
-  background-color: #26c6da;
-  color: #fff;
-  border-radius: 33px;
-  padding: 20px;
-  transition: all 0.25s ease;
-  margin-top: 30px;
+.section-about__info {
+  width: 40%;
 }
 /* end sec2 */
 
